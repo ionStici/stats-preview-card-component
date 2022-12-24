@@ -1,0 +1,120 @@
+/* RESET STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0c1c;
+}
+
+.heading-1 {
+    font-family: "Inter";
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.heading-1 span {
+    color: #ab5cdb;
+}
+
+.paragraph {
+    font-family: "Inter";
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    color: #cdccd3;
+    margin-bottom: 7.2rem;
+}
+
+/* CARD GENERAL STYLES */
+
+.card {
+    width: 111rem;
+    display: flex;
+    border-radius: 0.8rem;
+    background-color: #1b1937;
+    overflow: hidden;
+}
+
+/* CARD COL RIGHT STYLES */
+
+.card__col-right {
+    width: 54rem;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+            rgba(170, 92, 219, 0.5),
+            rgba(170, 92, 219, 0.5)
+        ),
+        url(./images/image-header-desktop.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+
+/* CARD COL LEFT STYLES */
+
+.card__col-left {
+    width: 57rem;
+    padding: 7.1rem 7.2rem 5.9rem 7.2rem;
+}
+
+.card__stats {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__stat--up {
+    font-family: "Inter";
+    color: #fff;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 2.9rem;
+}
+
+.card__stat--down {
+    font-family: "Lexend Deca";
+    color: #fff;
+    color: #adacb7;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+/* MEDIA QUERIES */
+
+/* END */
